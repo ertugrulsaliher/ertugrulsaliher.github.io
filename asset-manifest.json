@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/static/js/main.d724822c.js",
+    "main.js": "/static/js/main.8810f5ee.js",
     "static/media/ER_Software_Solutions.png": "/static/media/ER_Software_Solutions.1f3c864e466061b4d273.png",
     "index.html": "/index.html",
-    "main.d724822c.js.map": "/static/js/main.d724822c.js.map"
+    "main.8810f5ee.js.map": "/static/js/main.8810f5ee.js.map"
   },
   "entrypoints": [
-    "static/js/main.d724822c.js"
+    "static/js/main.8810f5ee.js"
   ]
 }
