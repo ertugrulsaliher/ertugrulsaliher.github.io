@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import logo from './util/ER_Software_Solutions.png';
+import logo from './util/ER_Software_Solutions_Matrix_Theme.png';
 import MatrixBackground from './matrixBackrount';
 
 const root = ReactDOM.createRoot(
@@ -10,8 +10,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <div style={{ position: 'relative', height: '100vh', overflow: 'hidden' }}>
     {/* Matrix Arka Plan */}
+    
     <MatrixBackground />
-
+    
     {/* Logo */}
     <div
       style={{
@@ -33,10 +34,25 @@ root.render(
             borderRadius: '50px',
             maxHeight: '300px',
             cursor: 'pointer',
-            boxShadow: '0 0 20px rgba(0, 255, 0, 0.7)',
+            animation: 'pulse 2s infinite',
           }}
         />
       </a>
     </div>
+    
+    
+    {/* CSS Animasyonu */}
+    <style>
+      {`
+        @keyframes pulse {
+          0%, 100% {
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.7);
+          }
+          50% {
+            box-shadow: 0 0 40px rgba(0, 255, 0, 1);
+          }
+        }
+      `}
+    </style>
   </div>
 );
